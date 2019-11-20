@@ -1,9 +1,4 @@
-server:
-  port: 9001
-
 spring:
-  application:
-    name: woomics-provider
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
@@ -34,15 +29,6 @@ logging:
       woomics:
         provider:
           mapper: debug  #开启mybatis日志
-
-eureka:
-  client: #客户端注册进eureka服务列表内
-    service-url:
-      #defaultZone: http://localhost:7001/eureka
-      defaultZone: http://root:root@47.106.131.115:7001/eureka,http://root:root@47.106.131.115:7002/eureka
-  instance:
-    instance-id: woomics-provider9001
-    #prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
   app.name: woomics-provider9001
