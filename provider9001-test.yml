@@ -36,3 +36,6 @@ info:
   company.name: localhost
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+
+test: auidjaod
