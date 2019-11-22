@@ -38,4 +38,4 @@ info:
   build.version: $project.version$
 
 
-test: auidjaod
+env: dev
