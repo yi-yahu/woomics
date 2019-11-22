@@ -38,4 +38,4 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
   
-env: aaa
+env: aaasfsfsfsfsf
